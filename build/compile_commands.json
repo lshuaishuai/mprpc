@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/shuaishuai/project/mprpc/build/src",
+  "command": "/usr/bin/c++ -Dmprpc_EXPORTS -I/home/shuaishuai/project/mprpc/src/include -I/home/shuaishuai/project/mprpc/example -g -fPIC -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/shuaishuai/project/mprpc/src/mprpcapplication.cc",
+  "file": "/home/shuaishuai/project/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/shuaishuai/project/mprpc/build/src",
+  "command": "/usr/bin/c++ -Dmprpc_EXPORTS -I/home/shuaishuai/project/mprpc/src/include -I/home/shuaishuai/project/mprpc/example -g -fPIC -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/shuaishuai/project/mprpc/src/mprpcconfig.cc",
+  "file": "/home/shuaishuai/project/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/shuaishuai/project/mprpc/build/src",
+  "command": "/usr/bin/c++ -Dmprpc_EXPORTS -I/home/shuaishuai/project/mprpc/src/include -I/home/shuaishuai/project/mprpc/example -g -fPIC -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/shuaishuai/project/mprpc/src/rpcprovider.cc",
+  "file": "/home/shuaishuai/project/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/shuaishuai/project/mprpc/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/shuaishuai/project/mprpc/src/include -I/home/shuaishuai/project/mprpc/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /home/shuaishuai/project/mprpc/example/callee/userservice.cc",
+  "file": "/home/shuaishuai/project/mprpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/shuaishuai/project/mprpc/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/shuaishuai/project/mprpc/src/include -I/home/shuaishuai/project/mprpc/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/shuaishuai/project/mprpc/example/user.pb.cc",
+  "file": "/home/shuaishuai/project/mprpc/example/user.pb.cc"
+}
+]
