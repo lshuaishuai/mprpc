@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/protobuf/**",
+                "/usr/local/protobuf/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

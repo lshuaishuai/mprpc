@@ -237,4 +237,98 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: \
  /usr/local/protobuf/include/google/protobuf/service.h \
  /home/shuaishuai/project/mprpc/example/callee/../../src/include/mprpcapplication.h \
  /home/shuaishuai/project/mprpc/example/callee/../../src/include/mprpcconfig.h \
- /home/shuaishuai/project/mprpc/example/callee/../../src/include/rpcprovider.h
+ /home/shuaishuai/project/mprpc/example/callee/../../src/include/rpcprovider.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/functional \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/std_function.h \
+ /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
+ /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
+ /usr/include/muduo/net/TcpConnection.h \
+ /usr/include/muduo/base/StringPiece.h /usr/include/muduo/net/Callbacks.h \
+ /usr/include/muduo/base/Timestamp.h /usr/include/muduo/base/copyable.h \
+ /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp \
+ /usr/include/boost/config/select_stdlib_config.hpp \
+ /usr/include/boost/config/no_tr1/utility.hpp \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/boost/config/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp \
+ /usr/include/boost/config/posix_features.hpp \
+ /usr/include/boost/config/suffix.hpp /usr/include/boost/iterator.hpp \
+ /usr/include/boost/detail/workaround.hpp /usr/include/muduo/net/Buffer.h \
+ /usr/include/muduo/net/Endian.h /usr/include/muduo/net/InetAddress.h \
+ /usr/include/netinet/in.h /usr/include/sys/socket.h \
+ /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /usr/include/boost/any.hpp \
+ /usr/include/boost/type_traits/remove_reference.hpp \
+ /usr/include/boost/type_traits/broken_compiler_spec.hpp \
+ /usr/include/boost/mpl/aux_/lambda_support.hpp \
+ /usr/include/boost/mpl/aux_/config/lambda.hpp \
+ /usr/include/boost/mpl/aux_/config/ttp.hpp \
+ /usr/include/boost/mpl/aux_/config/msvc.hpp \
+ /usr/include/boost/mpl/aux_/config/gcc.hpp \
+ /usr/include/boost/mpl/aux_/config/workaround.hpp \
+ /usr/include/boost/mpl/aux_/config/ctps.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_def.hpp \
+ /usr/include/boost/type_traits/detail/template_arity_spec.hpp \
+ /usr/include/boost/mpl/int.hpp /usr/include/boost/mpl/int_fwd.hpp \
+ /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+ /usr/include/boost/mpl/aux_/config/adl.hpp \
+ /usr/include/boost/mpl/aux_/config/intel.hpp \
+ /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+ /usr/include/boost/mpl/aux_/config/nttp.hpp \
+ /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /usr/include/boost/mpl/integral_c_tag.hpp \
+ /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+ /usr/include/boost/mpl/aux_/static_cast.hpp \
+ /usr/include/boost/preprocessor/cat.hpp \
+ /usr/include/boost/preprocessor/config/config.hpp \
+ /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /usr/include/boost/preprocessor/comma_if.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /usr/include/boost/preprocessor/control/if.hpp \
+ /usr/include/boost/preprocessor/control/iif.hpp \
+ /usr/include/boost/preprocessor/logical/bool.hpp \
+ /usr/include/boost/preprocessor/facilities/empty.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma.hpp \
+ /usr/include/boost/preprocessor/repeat.hpp \
+ /usr/include/boost/preprocessor/repetition/repeat.hpp \
+ /usr/include/boost/preprocessor/debug/error.hpp \
+ /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+ /usr/include/boost/preprocessor/tuple/eat.hpp \
+ /usr/include/boost/preprocessor/inc.hpp \
+ /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+ /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_reference.hpp \
+ /usr/include/boost/type_traits/config.hpp \
+ /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_def.hpp \
+ /usr/include/boost/type_traits/integral_constant.hpp \
+ /usr/include/boost/mpl/bool.hpp /usr/include/boost/mpl/bool_fwd.hpp \
+ /usr/include/boost/mpl/integral_c.hpp \
+ /usr/include/boost/mpl/integral_c_fwd.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/ice.hpp \
+ /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+ /usr/include/boost/type_traits/detail/ice_or.hpp \
+ /usr/include/boost/type_traits/detail/ice_and.hpp \
+ /usr/include/boost/type_traits/detail/ice_not.hpp \
+ /usr/include/boost/type_traits/detail/ice_eq.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/detail/attribute_noreturn.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/current_function.hpp \
+ /usr/include/boost/static_assert.hpp /usr/include/muduo/net/EventLoop.h \
+ /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
+ /usr/include/muduo/net/TimerId.h

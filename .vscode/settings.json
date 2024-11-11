@@ -50,6 +50,8 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "condition_variable": "cpp",
+        "thread": "cpp"
     }
 }

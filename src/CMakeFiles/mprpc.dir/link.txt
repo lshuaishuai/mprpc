@@ -1,1 +1,2 @@
-/bin/c++ -fPIC -shared -Wl,-soname,libmprpc.so -o ../lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o   -L/home/shuaishuai/project/mprpc/lib 
+/bin/ar qc ../lib/libmprpc.a CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/mprpcprovider.cc.o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o CMakeFiles/mprpc.dir/mprpcchannel.cc.o CMakeFiles/mprpc.dir/mprpccontroller.cc.o CMakeFiles/mprpc.dir/logger.cc.o CMakeFiles/mprpc.dir/zookeeperutil.cc.o
+/bin/ranlib ../lib/libmprpc.a

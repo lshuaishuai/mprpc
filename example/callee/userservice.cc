@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 
-#include "../user.pb.h"
-#include "../../src/include/mprpcapplication.h"
-#include "../../src/include/rpcprovider.h"
+#include "user.pb.h"
+#include "mprpcapplication.h"
+#include "mprpcprovider.h"
 
 /*
 UserService原来是一个本地服务，提供了两个进程内的本地方法，Login和GetFriendLists
@@ -16,7 +16,15 @@ public:
         std::cout << "doing local service: Login" << std::endl;
         std::cout << "name: " << name << " pwd: " << pwd << std::endl;
 
-        return false;
+        return true;
+    }
+
+    bool Register(uint32_t id, std::string name, std::string pwd)
+    {
+        std::cout << "doing local service: Register" << std::endl;
+        std::cout << "id: " << id << "name: " << name << " pwd: " << pwd << std::endl;
+
+        return true;
     }
 
     /*
@@ -24,7 +32,9 @@ public:
     1. caller  ==>   Login(LoginRequest)  =>  nuduo  =>  callee
     2. callee  ==>   Login(LoginRequest)  =>  交到下面重写的Login中
     */
+    // 绑定的CallMethod方法，当执行CallMethod时就是执行Login    
     // 我们现在所处的是callee(服务提供方)的视角，远端发来的RPC请求首先被RPC框架接收 匹配到对应的方法 从请求中拿出数据，执行本地业务，填充响应，执行回调由框架返回响应
+    // 这里的请求响应类都是继承自Message的，所以框架中只需要使用Message类即可
     void Login(::google::protobuf::RpcController* controller,
                        const ::fixbug::LoginRequest* request,
                        ::fixbug::LoginResponse* response,
@@ -41,9 +51,28 @@ public:
         response->set_success(loginresult);
         fixbug::ResultCode* code = response->mutable_result();
         code->set_errcode(0);
-        code->set_errmsg("");
+        code->set_errmsg("Login error");
 
         // 执行回调操作: 执行响应对象数据的序列化和网络发送(都是由框架来完成的)
+        done->Run();
+    }
+
+    void Register(::google::protobuf::RpcController* controller,
+                       const ::fixbug::RegisterRequest* request,
+                       ::fixbug::RegisterResponse* response,
+                       ::google::protobuf::Closure* done)
+    {
+        uint32_t id = request->id();
+        std::string name = request->name();
+        std::string pwd = request->pwd();
+
+        bool requestResult = Register(id, name, pwd);
+
+        response->set_success(requestResult);
+        fixbug::ResultCode* code = response->mutable_result();
+        code->set_errcode(0);
+        code->set_errmsg("");
+
         done->Run();
     }
 };
@@ -53,7 +82,6 @@ int main(int argc, char** argv)
     // 调用框架的初始化操作
     // provider -i config.conf
     MprpcApplication::Init(argc, argv);
-
     // RpcProvider是一个rpc网络服务对象，发布服务的对象
     RpcProvider provider;
     // 把UserService对象发送到rpc节点上

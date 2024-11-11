@@ -179,4 +179,168 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
  /opt/rh/devtoolset-8/root/usr/include/c++/8/vector \
  /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/stl_vector.h \
  /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/stl_bvector.h \
- /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/vector.tcc
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/vector.tcc \
+ /home/shuaishuai/project/mprpc/src/include/mprpcapplication.h \
+ /home/shuaishuai/project/mprpc/src/include/mprpcconfig.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/unordered_map \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/hashtable.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/hashtable_policy.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/unordered_map.h \
+ /home/shuaishuai/project/mprpc/src/include/mprpcchannel.h \
+ /home/shuaishuai/project/mprpc/src/include/mprpccontroller.h \
+ /home/shuaishuai/project/mprpc/src/include/logger.h \
+ /home/shuaishuai/project/mprpc/src/include/lockqueue.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/queue \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/deque \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/stl_deque.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/deque.tcc \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/stl_queue.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/mutex \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/chrono \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/ratio \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/ctime \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/parse_numbers.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/std_mutex.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/condition_variable \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/functional \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/std_function.h \
+ /usr/local/protobuf/include/google/protobuf/descriptor.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/mutex.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/once.h \
+ /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
+ /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
+ /usr/include/muduo/net/TcpConnection.h \
+ /usr/include/muduo/base/StringPiece.h /usr/include/muduo/net/Callbacks.h \
+ /usr/include/muduo/base/Timestamp.h /usr/include/muduo/base/copyable.h \
+ /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp \
+ /usr/include/boost/config/select_stdlib_config.hpp \
+ /usr/include/boost/config/no_tr1/utility.hpp \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/boost/config/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp \
+ /usr/include/boost/config/posix_features.hpp \
+ /usr/include/boost/config/suffix.hpp /usr/include/boost/iterator.hpp \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/iterator \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/stream_iterator.h \
+ /usr/include/boost/detail/workaround.hpp /usr/include/muduo/net/Buffer.h \
+ /usr/include/muduo/net/Endian.h /usr/include/muduo/net/InetAddress.h \
+ /usr/include/netinet/in.h /usr/include/sys/socket.h \
+ /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /usr/include/boost/any.hpp \
+ /usr/include/boost/type_traits/remove_reference.hpp \
+ /usr/include/boost/type_traits/broken_compiler_spec.hpp \
+ /usr/include/boost/mpl/aux_/lambda_support.hpp \
+ /usr/include/boost/mpl/aux_/config/lambda.hpp \
+ /usr/include/boost/mpl/aux_/config/ttp.hpp \
+ /usr/include/boost/mpl/aux_/config/msvc.hpp \
+ /usr/include/boost/mpl/aux_/config/gcc.hpp \
+ /usr/include/boost/mpl/aux_/config/workaround.hpp \
+ /usr/include/boost/mpl/aux_/config/ctps.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_def.hpp \
+ /usr/include/boost/type_traits/detail/template_arity_spec.hpp \
+ /usr/include/boost/mpl/int.hpp /usr/include/boost/mpl/int_fwd.hpp \
+ /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+ /usr/include/boost/mpl/aux_/config/adl.hpp \
+ /usr/include/boost/mpl/aux_/config/intel.hpp \
+ /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+ /usr/include/boost/mpl/aux_/config/nttp.hpp \
+ /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /usr/include/boost/mpl/integral_c_tag.hpp \
+ /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+ /usr/include/boost/mpl/aux_/static_cast.hpp \
+ /usr/include/boost/preprocessor/cat.hpp \
+ /usr/include/boost/preprocessor/config/config.hpp \
+ /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /usr/include/boost/preprocessor/comma_if.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /usr/include/boost/preprocessor/control/if.hpp \
+ /usr/include/boost/preprocessor/control/iif.hpp \
+ /usr/include/boost/preprocessor/logical/bool.hpp \
+ /usr/include/boost/preprocessor/facilities/empty.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma.hpp \
+ /usr/include/boost/preprocessor/repeat.hpp \
+ /usr/include/boost/preprocessor/repetition/repeat.hpp \
+ /usr/include/boost/preprocessor/debug/error.hpp \
+ /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+ /usr/include/boost/preprocessor/tuple/eat.hpp \
+ /usr/include/boost/preprocessor/inc.hpp \
+ /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+ /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_reference.hpp \
+ /usr/include/boost/type_traits/config.hpp \
+ /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_def.hpp \
+ /usr/include/boost/type_traits/integral_constant.hpp \
+ /usr/include/boost/mpl/bool.hpp /usr/include/boost/mpl/bool_fwd.hpp \
+ /usr/include/boost/mpl/integral_c.hpp \
+ /usr/include/boost/mpl/integral_c_fwd.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/ice.hpp \
+ /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+ /usr/include/boost/type_traits/detail/ice_or.hpp \
+ /usr/include/boost/type_traits/detail/ice_and.hpp \
+ /usr/include/boost/type_traits/detail/ice_not.hpp \
+ /usr/include/boost/type_traits/detail/ice_eq.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/detail/attribute_noreturn.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/current_function.hpp \
+ /usr/include/boost/static_assert.hpp \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/cstring \
+ /usr/include/muduo/net/EventLoop.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/atomic \
+ /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
+ /usr/include/muduo/net/TimerId.h \
+ /home/shuaishuai/project/mprpc/src/include/rpcheader.pb.h \
+ /usr/local/protobuf/include/google/protobuf/io/coded_stream.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/climits \
+ /usr/local/protobuf/include/google/protobuf/stubs/logging.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/strutil.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/stringpiece.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/hash.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/unordered_set \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/unordered_set.h \
+ /usr/local/protobuf/include/google/protobuf/port.h \
+ /usr/local/protobuf/include/google/protobuf/arena.h \
+ /usr/local/protobuf/include/google/protobuf/arena_impl.h \
+ /usr/local/protobuf/include/google/protobuf/arenastring.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/fastmem.h \
+ /usr/local/protobuf/include/google/protobuf/generated_message_table_driven.h \
+ /usr/local/protobuf/include/google/protobuf/map.h \
+ /usr/local/protobuf/include/google/protobuf/generated_enum_util.h \
+ /usr/local/protobuf/include/google/protobuf/message_lite.h \
+ /usr/local/protobuf/include/google/protobuf/metadata_lite.h \
+ /usr/local/protobuf/include/google/protobuf/map_type_handler.h \
+ /usr/local/protobuf/include/google/protobuf/parse_context.h \
+ /usr/local/protobuf/include/google/protobuf/io/zero_copy_stream.h \
+ /usr/local/protobuf/include/google/protobuf/implicit_weak_message.h \
+ /usr/local/protobuf/include/google/protobuf/repeated_field.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/casts.h \
+ /usr/local/protobuf/include/google/protobuf/wire_format_lite.h \
+ /usr/local/protobuf/include/google/protobuf/map_entry_lite.h \
+ /usr/local/protobuf/include/google/protobuf/generated_message_util.h \
+ /usr/local/protobuf/include/google/protobuf/any.h \
+ /usr/local/protobuf/include/google/protobuf/has_bits.h \
+ /usr/local/protobuf/include/google/protobuf/map_field_lite.h \
+ /usr/local/protobuf/include/google/protobuf/inlined_string_field.h \
+ /usr/local/protobuf/include/google/protobuf/generated_message_reflection.h \
+ /usr/local/protobuf/include/google/protobuf/generated_enum_reflection.h \
+ /usr/local/protobuf/include/google/protobuf/unknown_field_set.h \
+ /usr/local/protobuf/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+ /usr/local/protobuf/include/google/protobuf/stubs/stl_util.h \
+ /usr/local/protobuf/include/google/protobuf/message.h \
+ /usr/local/protobuf/include/google/protobuf/extension_set.h \
+ /opt/rh/devtoolset-8/root/usr/include/c++/8/cassert

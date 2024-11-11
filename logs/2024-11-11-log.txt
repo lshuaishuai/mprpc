@@ -1,0 +1,6 @@
+19:48:48 => [info] service_name: FriendServiceRPC
+19:48:48 => [info] method_name: GetFriendsList
+19:48:48 => [info] zookeeper_init success!
+19:48:48 => [error] znode create success... path: /FriendServiceRPC
+19:48:48 => [error] znode create success... path: /FriendServiceRPC/GetFriendsList
+19:49:34 => [info] zookeeper_init success!

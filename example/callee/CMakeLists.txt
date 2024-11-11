@@ -1,4 +1,5 @@
-set(SRC_LIST userservice.cc ../user.pb.cc)
+# set(SRC_LIST userservice.cc ../user.pb.cc)
+set(SRC_LIST friendservice.cc ../friend.pb.cc)
 
 # 定义了一个可执行文件 provider，它由 SRC_LIST 中的源文件编译而成
 add_executable(provider ${SRC_LIST})

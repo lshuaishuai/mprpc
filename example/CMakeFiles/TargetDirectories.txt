@@ -1,0 +1,8 @@
+/home/shuaishuai/project/mprpc/example/CMakeFiles/edit_cache.dir
+/home/shuaishuai/project/mprpc/example/CMakeFiles/rebuild_cache.dir
+/home/shuaishuai/project/mprpc/example/callee/CMakeFiles/provider.dir
+/home/shuaishuai/project/mprpc/example/callee/CMakeFiles/edit_cache.dir
+/home/shuaishuai/project/mprpc/example/callee/CMakeFiles/rebuild_cache.dir
+/home/shuaishuai/project/mprpc/example/caller/CMakeFiles/consumer.dir
+/home/shuaishuai/project/mprpc/example/caller/CMakeFiles/edit_cache.dir
+/home/shuaishuai/project/mprpc/example/caller/CMakeFiles/rebuild_cache.dir

@@ -4,6 +4,7 @@
 #include <unistd.h>
 
 #include "include/mprpcconfig.h"
+#include "logger.h"
 
 // 负责解析加载配置文件
 void MprpcConfig::LoadConfigFile(const char* config_file)
@@ -12,7 +13,8 @@ void MprpcConfig::LoadConfigFile(const char* config_file)
     FILE* pf = fopen(config_file, "r");
     if(nullptr == pf)
     {
-        std::cout << config_file << " is invalid" << std::endl;
+        // std::cout << config_file << " is invalid!" << std::endl;
+        LOG_ERR("%d is invalid!", config_file);
         exit(EXIT_FAILURE); 
     }
 
